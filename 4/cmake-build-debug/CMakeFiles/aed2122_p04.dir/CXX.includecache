@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Diogo Babo/Desktop/aeda file/4/Tests/funSortProblem.cpp
+funSortProblem.h
+C:/Users/Diogo Babo/Desktop/aeda file/4/Tests/funSortProblem.h
+algorithm
+-
+
+C:/Users/Diogo Babo/Desktop/aeda file/4/Tests/funSortProblem.h
+iostream
+-
+vector
+-
+product.h
+C:/Users/Diogo Babo/Desktop/aeda file/4/Tests/product.h
+piece.h
+C:/Users/Diogo Babo/Desktop/aeda file/4/Tests/piece.h
+
+C:/Users/Diogo Babo/Desktop/aeda file/4/Tests/piece.h
+string
+-
+
+C:/Users/Diogo Babo/Desktop/aeda file/4/Tests/product.h
+string
+-
+
