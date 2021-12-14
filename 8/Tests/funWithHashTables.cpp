@@ -26,8 +26,17 @@ unsigned FunWithHashTables::hashString(const string& s) {
 // ..............................
 // d) Contando diferentes somas de pares
 // TODO
+int FunWithHashTables::sum(int a, int b) {
+    return a+b;
+}
 int FunWithHashTables::sumPairs(const vector<int>& numbers) {
-  return 0;
+    HashTable<int> hashTable(numbers.size()*numbers.size()+2,hashInt);
+    for(int x=0;x<numbers.size();x++){
+        for(int y = x+1;y<numbers.size();y++)
+            if(x != y)
+                hashTable.insert(sum(numbers[x],numbers[y]));
+    }
+    return hashTable.getNumActive();
 }
 
 // ----------------------------------------------------------

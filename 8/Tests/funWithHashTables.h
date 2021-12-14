@@ -9,6 +9,7 @@
 #include <list>
 #include <unordered_set>
 #include <unordered_map>
+#include <functional>
 
 using namespace std;
 
@@ -23,6 +24,7 @@ class FunWithHashTables {
                            const unordered_map<string, vector<string>>& dict,
                            unordered_map<string, int>& answer);
   static void wordIndex(const vector<string> &words, vector<int>& answer);
+  static int sum(int a, int b);
 };
 
 #endif
