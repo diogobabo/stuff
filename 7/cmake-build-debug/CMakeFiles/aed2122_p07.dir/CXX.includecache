@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Diogo Babo/Desktop/aeda file/7/Tests/bst.h
+iostream
+-
+stack
+-
+queue
+-
+
+C:/Users/Diogo Babo/Desktop/aeda file/7/Tests/funWithBSTs.cpp
+set
+-
+map
+-
+funWithBSTs.h
+C:/Users/Diogo Babo/Desktop/aeda file/7/Tests/funWithBSTs.h
+bst.h
+C:/Users/Diogo Babo/Desktop/aeda file/7/Tests/bst.h
+
+C:/Users/Diogo Babo/Desktop/aeda file/7/Tests/funWithBSTs.h
+vector
+-
+string
+-
+
