@@ -22,6 +22,8 @@ class Graph {
         bool visited;   // As the node been visited on a search?
     };
 
+    int recursivestuff(Node a);
+
     int n;              // Graph size (vertices are numbered from 1 to n)
     bool hasDir;        // false: undirect; true: directed
     vector<Node> nodes; // The list of nodes being represented

@@ -52,7 +52,7 @@ void Graph::bfs(int v) {
 // a) Contando diferentes somas de pares
 // TODO
 int Graph::outDegree(int v) {
-    return 0;
+    if(v>=nodes.size()||v<=0) return -1;return nodes.at(v).adj.size();
 }
 
 // ----------------------------------------------------------
@@ -62,15 +62,54 @@ int Graph::outDegree(int v) {
 // ..............................
 // a) Contando componentes conexos
 // TODO
+
+int Graph::recursivestuff(Node a){
+    int b =0;
+    for(auto sus1:a.adj){
+        if(nodes[sus1.dest].visited)
+            continue;
+        nodes[sus1.dest].visited = true;
+
+        b = recursivestuff(nodes[sus1.dest]) + b + 1;
+    }
+    return b;
+}
+
 int Graph::connectedComponents() {
-    return 0;
+    int count = 0,res = 0;
+    for(auto sus :nodes){
+        if(count == 0){
+            count = 1;
+            continue;
+        }
+        if(!sus.visited){
+            sus.visited = true;
+            recursivestuff(sus);
+            res++;
+        }
+    }
+    return res;
 }
 
 // ..............................
 // b) Componente gigante
 // TODO
 int Graph::giantComponent() {
-    return 0;
+    int count = 0,res = 0;
+    for(auto sus :nodes){
+        if(count == 0){
+            count = 1;
+            continue;
+        }
+        if(!sus.visited){
+            sus.visited = true;
+            int c = recursivestuff(sus);
+            if(c>res){
+                res = c;
+            }
+        }
+    }
+    return res;
 }
 
 
