@@ -9,6 +9,8 @@
 #include <list>
 #include <iostream>
 
+#define INF (INT_MAX/2)
+
 using namespace std;
 
 class Graph {
