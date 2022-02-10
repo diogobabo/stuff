@@ -73,7 +73,7 @@ void MinHeap<K,V>::swap(int i1, int i2) {
 
 // ----------------------------------------------
 
-// Create a min-heap for a max of n pairs (K,V) with notFound returned when empty
+// Create a min-heap for a max of n pVairs (K,) with notFound returned when empty
 template <class K, class V>
 MinHeap<K,V>::MinHeap(int n, const K& notFound) : KEY_NOT_FOUND(notFound), size(0), maxSize(n), a(n+1) {
 }
