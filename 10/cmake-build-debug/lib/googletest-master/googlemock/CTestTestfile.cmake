@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: C:/Users/Diogo Babo/Desktop/aeda file/10/lib/googletest-master/googlemock
-# Build directory: C:/Users/Diogo Babo/Desktop/aeda file/10/cmake-build-debug/lib/googletest-master/googlemock
+# Source directory: C:/Users/Diogo Babo/Desktop/files/stuff/10/lib/googletest-master/googlemock
+# Build directory: C:/Users/Diogo Babo/Desktop/files/stuff/10/cmake-build-debug/lib/googletest-master/googlemock
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

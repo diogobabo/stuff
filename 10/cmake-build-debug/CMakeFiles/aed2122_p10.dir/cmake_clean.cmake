@@ -3,9 +3,13 @@ file(REMOVE_RECURSE
   "../Tests/aed2122_p10.exe.manifest"
   "../Tests/aed2122_p10.pdb"
   "CMakeFiles/aed2122_p10.dir/Tests/funWithGraphs.cpp.obj"
+  "CMakeFiles/aed2122_p10.dir/Tests/funWithGraphs.cpp.obj.d"
   "CMakeFiles/aed2122_p10.dir/Tests/graph.cpp.obj"
+  "CMakeFiles/aed2122_p10.dir/Tests/graph.cpp.obj.d"
   "CMakeFiles/aed2122_p10.dir/Tests/tests.cpp.obj"
+  "CMakeFiles/aed2122_p10.dir/Tests/tests.cpp.obj.d"
   "CMakeFiles/aed2122_p10.dir/main.cpp.obj"
+  "CMakeFiles/aed2122_p10.dir/main.cpp.obj.d"
   "libaed2122_p10.dll.a"
 )
 
